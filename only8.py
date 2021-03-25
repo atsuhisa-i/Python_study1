@@ -1,5 +1,5 @@
 def count(*t, start=1, **d):
-  for i, x in enumerate(t, 1):
+  for i, x in enumerate(t, start):
     print('[', i, ']', x)
   for i, (k, v) in enumerate(d.items(), len(t)+1):
     print('[', i, ']', k, ':', v)
