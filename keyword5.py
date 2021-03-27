@@ -3,4 +3,4 @@ def order(main, side, drink):
     print('side :', side)
     print('drink:', drink)
 
-order('steak', 'salad', 'coffee')
+order(*['parfait'], **{'drink': 'cocoa'}, side='cookie')

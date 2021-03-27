@@ -1,1 +1,1 @@
-print(len('Python'))
+print('Hello', 'Python', end='')
